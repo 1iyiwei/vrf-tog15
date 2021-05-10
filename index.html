@@ -36,6 +36,13 @@ Raster images are the standard format for texture mapping, but they suffer from 
 </blockquote>
 
 <h3>
+Description (2021):
+</h3>
+Vector Regression Function (VRF) is an earlier technique (ToG 2015) that converts a given raster image into a hybrid representation based on a shallow fully-connected neural network.
+The representation combines the advantages of raster images (simple, general, random access and filtering) and vector graphics (resolution-independent), and can be implemented as a custom texture compression format via a GPU pixel shader.
+Unlike standard GPU texture compression, VRF provides a variable-rate encoding in which piecewise smooth regions compress to the square root of the original size.
+
+<h3>
 Available information:
 </h3>
 <blockquote>
